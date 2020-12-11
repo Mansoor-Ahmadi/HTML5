@@ -1,0 +1,52 @@
+
+html, body, div, h1, span, table, tbody, td, tr,
+u, b, em, i, ol, ul, li, p, h2, h3, h4, h5, h6,
+font, img, form, label, sub, sup, {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+background: transparent;
+}
+
+h1{ font-size: 27px; text-align: center;}
+h2{ font-size:26px;}
+h3{ font-size:18px;}
+h4{ font-size:16px;}
+h5{ font-size:14px;}
+h6{ font-size:12px;}
+
+body
+{
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+    font: 14px arial;
+}
+
+#content {
+    background: #f9f9f9;
+    margin: 0 auto;
+	position: relative;
+	text-align: center;
+    text-shadow: 0 1px 0 #fff;
+}
+.container { background-color: lightslategrey; margin: 145px auto;}
+
+.login input {
+    width: 150px;
+    margin-left: 60px;
+    padding-bottom: 0px;
+}
+.forgot
+{
+    margin-top: 10px;
+    margin-left: 60px;
+}
+p
+{
+margin-bottom: 0px;
+padding: 0px;
+}
