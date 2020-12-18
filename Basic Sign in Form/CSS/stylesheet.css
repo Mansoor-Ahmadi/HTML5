@@ -1,0 +1,86 @@
+*
+html, body, div, h1, span, table, tbody, td, tr,
+u, b, em, i, ol, ul, li, p, h2, h3, h4, h5, h6,
+font, img, form, label, sub, sup,{
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+}
+
+body
+{
+    text-align: center;
+    color: #000;
+    margin: 0 auto;
+    padding: 0;
+    font: 14px arial, helvetica, sans-serif;
+}
+
+a:hover{
+    color: red;
+}
+
+a{
+    margin-left: 58px;
+    text-decoration: none;
+}
+
+.container{
+    width: 100%;
+    margin-top: 230px;
+}
+
+.border{
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px #ccc solid ;
+    margin: 0px 140px;
+    background-color: rgb(250, 249, 249);
+}
+
+.myform input{
+    padding: 5px;
+    width: 50%;
+    margin: 5px 5px;
+}
+
+.lbutton input{
+    margin-left: 60px;
+    font-size: 16px;
+}
+
+/* Contact us */
+
+.contactform{
+    text-align: left;
+    margin: 20px 5px;
+}
+
+.contactform label{
+    display: block;
+    padding-top: 15px; 
+    padding-bottom: 3px;
+}
+
+.contactform input[type="text"]{
+    width: 50%; 
+    /* by width 80% we increaces the input view, but not just that. we actually increased the size of our button because it's an input as well. Therefor, to make only the submit button smaller we declared this [type="text"]*/
+    padding: 5px;
+}
+
+.contactform textarea{
+    width: 50%;
+    height: 120px;
+    padding: 5px;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px #ccc solid;
+    box-sizing: border-box;
+    padding: 10px;
+    /* one of the boxes were coming down. They weren't staying in the same line with the floating technique we used. therefore, we had to use box-sizing to border-box value. what it will do is to put the boxes attached. */
+}
